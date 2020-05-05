@@ -11,8 +11,8 @@ class Navbar extends Component {
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li>Welcome {localStorage.getItem('name')}</li>
       <li><a href="/">Home</a></li>
-      <li><a href="/cars">Book Car</a></li>
-      <li><a href="/login">Login</a></li>
+      <li><a href="/#/cars">Book Car</a></li>
+      <li><a href="/#/login">Login</a></li>
       </ul>
     </div>
   </nav>

@@ -37,8 +37,8 @@ class Cars extends Component{
                                             <i class="fa fa-star unmark"></i>
                                         </p>
                                         <form>
-                                        <button formaction="/details" class="rent-btn">Details</button>
-                                        <button formaction="/bookings" class="rent-btn" disabled>Book It</button></form>
+                                        <button formaction="/#/details" class="rent-btn">Details</button>
+                                        <button formaction="/#/bookings" class="rent-btn" disabled>Book It</button></form>
                                     </div>
                                 </div>
                             </div>
@@ -56,8 +56,8 @@ class Cars extends Component{
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star unmark"></i>
                                         </p>
-                                        <a href="/hyundai_i20" class="rent-btn">Details</a>
-                                        <a href="/bookings" class="rent-btn">Book It</a>
+                                        <a href="/#/hyundai_i20" class="rent-btn">Details</a>
+                                        <a href="/#/bookings" class="rent-btn">Book It</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +75,8 @@ class Cars extends Component{
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star unmark"></i>
                                         </p>
-                                        <a href="/dzire" class="rent-btn">Details</a>
-                                        <a href="/bookings" class="rent-btn">Book It</a>
+                                        <a href="/#/dzire" class="rent-btn">Details</a>
+                                        <a href="/#/bookings" class="rent-btn">Book It</a>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +96,8 @@ class Cars extends Component{
                                             <i class="fa fa-star unmark"></i>
                                         </p>
                                         <form>
-                                        <button formaction="/ecosport" class="rent-btn">Details</button>
-                                        <button formaction="/bookings" class="rent-btn" disabled>Book It</button></form>
+                                        <button formaction="/#/ecosport" class="rent-btn">Details</button>
+                                        <button formaction="/#/bookings" class="rent-btn" disabled>Book It</button></form>
                                     </div>
                                 </div>
                             </div>

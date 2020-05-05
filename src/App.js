@@ -15,16 +15,15 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-class App extends Component {
-
-  render() {
+function App() {
     return (
-      <HashRouter>
-    <div>
-    <Navbar/>
     
+    <div>
+      <HashRouter>
+    <Navbar/>
     <Switch>
-      <Route exact path='/cars' component = {Cars} />
+      <Route exact path="/" component ={Home}/>
+      <Route exact path="/cars" component = {Cars} />
       <Route exact path='/login' component = {Login}/>
       <Route exact path="/details" component={details}/>
       <Route exact path="/bookings" component={book}/>
@@ -32,10 +31,11 @@ class App extends Component {
       <Route exact path="/dzire" component={dzire}/>
       <Route exact path="/ecosport" component={ecosport}/>
     </Switch>
+    </HashRouter>
   </div>
-  </HashRouter>
+
     );
     
   }
-}
+
 export default App;
